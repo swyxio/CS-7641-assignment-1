@@ -82,10 +82,7 @@ if __name__ == "__main__":
 
     timings = {}
 
-    datasets = [
-        ds1_details,
-        # ds2_details
-    ]
+    datasets = [ds1_details, ds2_details]
 
     experiment_details = []
     for ds in datasets:

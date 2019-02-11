@@ -418,7 +418,8 @@ class PoisonousMushrooms(DataLoader):
 
 
 if __name__ == "__main__":
-    # cd_data = PoisonousMushrooms(verbose=True)
+    cd_data = PoisonousMushrooms(verbose=True)
+    cd_data.load_and_process()
     cd_data = Spam(verbose=True)
     cd_data.load_and_process()
 
